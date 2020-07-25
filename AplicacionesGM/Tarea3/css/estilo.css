@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face
+{
+	font-family: Lato;
+	src: url("../fuente/Lato-Thin.ttf");
+}
+
+
+/*Estilos del cuerpo:
+
+Color del fondo de la página #fcd04b
+Fuente de Google: Lato
+Color del texto blanco
+*/
+
+body
+{
+	background-color: #fcd04d;
+	font-family: Lato;
+	color: white;
+}
+
+div:first-child
+{
+	text-align: center;	
+	margin-bottom: 10%;
+}
+
+div:nth-child(2)
+{
+	text-align: center;	
+}
+/*
+Estilos del encabezado:
+Centrado
+Grosor del encabezado 300
+*/
+
+header
+{
+	margin: auto;
+	width: 300px;
+}
+
+
+/*Estilos del botón:
+
+Al pasar encima del botón, que el cursor cambie
+Color de fondo del botón #fcad26
+Tamaño de la fuente del botón 16pixeles
+Grosor del texto del botón 300
+Color del texto del botón en blanco
+Texto del botón en mayúscula usando CSS
+Espacio entre letras del botón 2pixeles
+Tamaño del botón de 25pixeles x 80pixeles
+Esquinas del botón  redondeadas 20pixeles
+Sombra del botón de 6pixeles hacia abajo
+Color  de la sombra del botón #efa424
+Al pasar el cursor  encima del botón:
+
+Reducir la sombra a 4px y mantener el color
+Bajar el botón 2px
+Al activar el botón:
+
+Quitar la sombra
+Bajar el botón 6px
+*/
+
+#boton1
+{
+	background-color: #fcad26;
+	font-size: 16px;
+	text-transform: uppercase;
+	word-spacing: 2px;
+	border-radius: 20px;
+	height: 80px;
+	width: 250px;
+	box-shadow: 0px 6px 0px 0px #efa424;
+	margin-top: 10px;
+	color: white;
+}
+
+#boton1:hover
+{
+	cursor: cell;
+	box-shadow: 0px 4px 0px 0px #efa424;
+	margin-top: 12px;
+}
+
+#boton1:active
+{
+	box-shadow: none;
+	margin-top: 16px;
+}
+
+/*Boton 2*/
+
+
+#boton2
+{
+	height: 80px;
+	width: 250px;	
+	color: white;
+	background: #1C0F8F;
+	border-radius: 20px;
+	box-shadow: 0px 5px 0px  #0041A6;
+	-webkit-transition:-webkit-transform 0.3s ease-in-out  0.1s ;
+	text-transform: uppercase;
+}
+
+
+#boton2:hover
+{
+	-webkit-transform:scale(1.2);
+}
+
+#boton2:active
+{
+	box-shadow: none;
+}
+
+

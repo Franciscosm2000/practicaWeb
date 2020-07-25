@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body
+{
+	width: 80%;
+	margin: 0 auto;
+}
+
+h1
+{
+	box-shadow: 0px -20px 20px #f2f2f2;
+}
+
+header
+{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+section
+{
+	width: 70%;
+	padding: 10px;
+	margin: 0 auto;
+
+}
+
+h3
+{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.principal
+{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 15px;
+	margin-left: 15px;
+	padding: 10px;
+}
+
+.separador
+{
+	float: left;
+	width: 0.5px;
+	height: 750px;
+	border: 1px solid #000;
+	background: #000;
+	margin-left: 50px;
+	margin-right: 20px;
+}
+
+hr
+{
+	width: 90%;
+	margin: 0 auto;	
+}
+.principal1 
+{
+	width: 20%;
+	float: left;
+}
+
+.principal2
+{
+	width: 50%;
+	float: left;
+}
+
+
+.principal2 h3 , .principal h2
+{
+	color: #1C0276;
+}
+
+
+
+
+
+
+

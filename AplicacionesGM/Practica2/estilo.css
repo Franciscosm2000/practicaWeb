@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1
+{
+	text-align: center;
+}
+
+table
+{
+	margin: auto;
+}
+
+td
+{
+	width: 100px;
+	height: 100px;
+}
+
+.verticale
+{
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+}
+
+.horiontal
+{
+	border-bottom: 1px solid #000;
+	border-top: 1px solid #000;
+}
+
+
+
+
+
+
+
+
+
+

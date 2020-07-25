@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1
+{
+	font: Raleway 400 800;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+}
+
+hr
+{
+	margin-top: 5px;
+	color: #f1f1f1;
+	width: 500px;
+	float: left;
+}
+
+div
+{
+	width: 100%;
+	margin-left: auto;
+	margin-top: 4% !important;
+}
+
+img
+{
+	width: 30%;
+	margin-bottom: 1.6%;
+	margin-left: 1.6%;
+
+}

@@ -1,0 +1,129 @@
+﻿/*Darle estilo a los elementos HTML según
+las siguientes instrucciones:
+NO ALTERAR EL HTML EXISTENTE. ESCRIBIR UNICAMENTE CSS*/
+
+/*1- Darle al elemento body un fondo de bdc3c7*/
+
+body
+{
+	background: #bdc3c7;
+}
+
+/*2- Que el elemento h1 sea de color 9b59b6*/
+
+h1
+{
+	color:#9b59b6 ;
+}
+
+/*3- Todos los lementos h2 sean color orange*/
+
+h2
+{
+	color: orange;
+}
+
+/*4- Que todos los elementos li sean de algun tono de azul*/
+
+li
+{
+	color: blue;
+}
+
+/*5- Cambiar el fondo de cada parrafo para que sea amarillo*/
+p
+{
+	background-color: yellow;
+}
+
+/*6- Que todos los elementos input tengan un borde rojo de 3px*/
+
+input
+{
+	border: 3px solid #C30003;
+}
+
+/*7- Hacer que todo lo que tenga la clase 
+'hola' tenga fondo blanco*/
+.hola
+{
+	background-color: white;
+}
+
+/*8- Hacer que el elemento con ID 'especial' tenga borde solido azul(rgb) de 2px*/
+
+#especial
+{
+	border: 2px solid rgb(0,100,200);
+}
+
+/*9- Hacer que todos los elementos p que estan dentro de los divs tengan fuente de tamaño 25px*/
+
+div p
+{
+	font-size: 25px;
+}
+
+/*10- Que todos los input type="text" tengan fondo gris*/
+
+input[type="text"]
+{
+	background-color: gray;
+}
+
+/*11- Que los elementos p dentro del 3er div tenga fondo rosado*/
+
+div:nth-of-type(3) p
+{
+	background-color: pink;
+}
+
+/*12- Darle al 2do elemento p dentro de 3er div un borde blanco de 5px*/
+div:nth-of-type(3) p:nth-of-type(2)
+{
+	border: 5px solid white;
+}
+
+
+/*13- Hacer que el elemento em en el 3er div sea blanco y de 20px*/
+div:nth-of-type(3) em
+{
+	font-size: 20px;
+	color: white;
+}
+
+
+/*14- Que todos los checkbox "seleccionados" tengan un margen izquierdo de 50px*/
+
+input:checked
+{
+	margin-left: 50px;
+}
+
+/*15- Que todos los elementos label esten en MAYUSCULAS sin cambiar el HTML*/
+
+label
+{
+	text-transform: uppercase;
+}
+
+/*16- Que la primera letra del elemento con ID 'especial' sea verde y de 100px*/
+
+#especial:first-letter
+{
+	color: green;
+	font-size: 100px;
+}
+
+/*17- Que el elemento h1 cambie de color a azul cuando se pase el puntero por encima*/
+h1:hover
+{
+	color: blue;
+}
+/*18- Que el elemento a que haya sido visitado sea gris*/
+
+a:visited
+{
+	color: gray;
+}
+

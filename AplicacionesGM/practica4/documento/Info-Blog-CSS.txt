@@ -1,0 +1,16 @@
+color del borde del cuerpo: #bdc3c7
+anchura del borde del cuerpo: 20px
+anchura maxima del cuerpo: 700px
+anchura del cuerpo: 80%
+margen del cuerpo: 20px arriba y abajo, automatico a los lados
+padding del cuerpo: 20px
+
+fuente: Source Sans Pro 400 700
+color de la fecha: #3498db
+espacio entre las letras de la fecha: 0.2rem
+
+color del h2: #2c3e50
+El texto del h2 debe ir con la primera letra mayúscula de cada palabra
+tamaño de la fuente del h2: 2.0rem
+anchura del borde del primer parrafo: 5px
+espacio entre el borde y el texto: 5px
