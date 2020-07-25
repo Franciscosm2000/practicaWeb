@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scalable=1.0, maximun-sclable=1.0, minium-scalable=1.0">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<title>Formulario</title>
+</head>
+
+<body>
+	
+	<div class="container">
+		<div class="row mt-3">
+			<div class="col">
+				<form action="">
+					<div class="form-group">
+						<label for="nombre">Nombre</label>
+						<input class="form-control" type="text" placeholder="Nombre" name="nombre" id="nombre">
+					</div>
+					<div class="form-group">
+						<label for="pass">Contraseña</label>
+						<input class="form-control" type="password" placeholder="contrasena" name="pass" id="pass">
+					</div>
+					<div class="form-group">
+						<label for="mensaje">Mensaje</label>
+						<textarea class="form-control" name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+					</div>
+					
+					<div class="form-group">
+						<select name="pais" id="pais" class="form-control">
+							<option value="mexico">Mexico</option>
+							<option value="espana">Espana</option>
+							<option value="nicaragua">nicaragua</option>
+						</select>
+					</div>
+					
+					<div class="form-check">
+						<label for="" class="form-check-label">
+							 <input type="radio" name="check" id="Mujer" class="form-check-input mr-2"> Mujer
+					    </label>
+						
+					</div>
+					<div class="form-check">
+						<label class="form-check-label">
+							<input type="radio" name="check" id="Hombre" class="form-check-input mr-2">Hombre
+						</label> 
+						
+					</div>
+					<div class="form-check">
+						<label class="form-check-label">
+							<input type="checkbox" name="check" id="asepto" class="form-check-input mr-2">Asepto terminos y condiciones 
+						</label> 
+						
+					</div>
+					
+					<button class="btn btn-primary" type="submit">Enviar</button>
+					
+				</form>
+			</div>
+		</div>
+		
+	</div>
+	
+	<script src="../js/jquery-3.4.1.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+</body>
+</html>

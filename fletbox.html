@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scalable=1.0, maximun-sclable=1.0, minium-scalable=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<title>Flexbox</title>
+
+	<style>
+		.contenedor
+		{
+			margin-bottom: 20px;
+			background: #027d85;
+			color: #FFF;
+		}
+		
+		.contenedor div
+		{
+			background: rgba(255,255,255,.2);
+			padding: 15px;
+			border: 1px solid #000;
+		}
+	</style>	
+</head>
+
+<body>
+	
+	<div class="container">
+		<div class="row my-3">
+			<div class="col">
+				<h4>Wrap</h4>
+				<hr>
+				<p>nowrap</p>
+				<div class="contenedor d-flex flex-nowrap">
+					<div>caja 1</div>
+					<div>caja 2</div>
+					<div>caja 3</div>
+					<div>caja 4</div>
+					<div>caja 5</div>
+					<div>caja 6</div>
+					<div>caja 7</div>
+					<div>caja 8</div>
+					<div>caja 9</div>
+					<div>caja 10</div>
+					<div>caja 11</div>
+					<div>caja 12</div>
+					<div>caja 13</div>
+					<div>caja 14</div>
+					<div>caja 15</div>
+				</div>
+				<hr>
+				<p>wrap</p>
+				<div class="contenedor d-flex flex-wrap">
+					<div>caja 1</div>
+					<div>caja 2</div>
+					<div>caja 3</div>
+					<div>caja 4</div>
+					<div>caja 5</div>
+					<div>caja 6</div>
+					<div>caja 7</div>
+					<div>caja 8</div>
+					<div>caja 9</div>
+					<div>caja 10</div>
+					<div>caja 11</div>
+					<div>caja 12</div>
+					<div>caja 13</div>
+					<div>caja 14</div>
+					<div>caja 15</div>
+				</div>
+				<hr>
+				<p>wrap-reverse</p>
+				<div class="contenedor d-flex flex-wrap-reverse">
+					<div>caja 1</div>
+					<div>caja 2</div>
+					<div>caja 3</div>
+					<div>caja 4</div>
+					<div>caja 5</div>
+					<div>caja 6</div>
+					<div>caja 7</div>
+					<div>caja 8</div>
+					<div>caja 9</div>
+					<div>caja 10</div>
+					<div>caja 11</div>
+					<div>caja 12</div>
+					<div>caja 13</div>
+					<div>caja 14</div>
+					<div>caja 15</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row my-3">
+			<div class="col">
+				<h4>Order</h4>
+				<hr>
+				<div class="contenedor d-flex flex-nowrap" >
+					<div class="flex-last">1</div>
+					<div>3</div>
+					<div class="flex-first">2</div>
+				</div>
+			</div>
+		</div>
+		
+		<row>
+			<div class="col">
+				<h4>align content</h4>
+				<hr>
+				
+				<p>.align-content-satar</p>
+				
+				<div class="contenedor d-flex align-content-start flex-wrap">
+					<div>caja 1</div>
+					<div>caja 2</div>
+					<div>caja 3</div>
+					<div>caja 4</div>
+					<div>caja 5</div>
+					<div>caja 6</div>
+					<div>caja 7</div>
+					<div>caja 8</div>
+					<div>caja 9</div>
+					<div>caja 10</div>
+					<div>caja 11</div>
+					<div>caja 12</div>
+					<div>caja 13</div>
+					<div>caja 14</div>
+					<div>caja 15</div>
+				</div>
+			</div>
+		</row>
+	</div>
+	
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

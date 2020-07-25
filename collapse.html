@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scalable=1.0, maximun-sclable=1.0, minium-scalable=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<title>Collapse</title>
+</head>
+
+<body>
+	
+	<div class="container">
+		<div class="row mt-3">
+			<div class="col-6">
+				<p>
+					<a href="#bloque1" class="btn btn-primary" aria-expanded="false" aria-controls="bloque1" data-toggle="collapse">Bloque 1</a>
+				</p>
+				<div class="collapse" id="bloque1">
+					<div class="card card-block">
+						<div class="card-text">
+							<h3>Tiulo</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, vero.</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			
+		</div>
+		
+		<div class="row mt-3">
+			<div class="col">
+				<div id="acordion" role="tablist" aria-multiselectable="true">
+					<div class="card">
+						<div class="card-header" role="tab" id="heading1">
+							<h5 class="mb-5">
+								<a href="#collapse1" data-toggle="collapse" data-parent="#acordion" aria-expanded="true" aria-controls="collapse1">Contenido</a>
+							</h5>
+						</div>
+						
+						<div id="collapse1" class="collapse" role="tabpanel" aria-labelledby="heading1">
+							<div class="card-block">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non impedit eveniet, enim maiores. Aut placeat ex, pariatur voluptates, error dolore quaerat omnis delectus dolores, voluptatum perferendis autem, a dignissimos libero eaque enim. Fuga odio dignissimos, enim impedit, aliquid eveniet delectus nemo animi est temporibus incidunt adipisci provident nostrum autem velit voluptate beatae illo quo laudantium amet expedita aliquam ex voluptas! Doloribus cum similique quas eaque, delectus reiciendis autem provident non ipsa possimus amet eum, vitae aliquid. Nam vel ex, quos id et nobis, eius velit, earum ipsum sequi ad itaque suscipit quae eveniet quidem est enim facere fuga molestias fugiat aliquam rerum ratione veritatis. Eos sed tempore labore quis alias cupiditate quod. In commodi ipsam voluptates qui voluptatibus molestiae quia veritatis alias, voluptatem aliquam illo, corrupti exercitationem! Labore placeat deserunt illo iure, et maiores consequuntur nulla sint perferendis ipsum similique dicta! Ducimus dolores itaque quaerat odit laudantium? Ipsum quod expedita ex harum quam sequi recusandae excepturi earum, repellat odit blanditiis corporis eligendi minus, voluptatem ullam dignissimos libero. Deleniti at, nostrum? Nulla vel veritatis culpa reprehenderit dolor blanditiis fugit, dolore corporis est nam ex error aliquam tempora nisi eveniet. Distinctio voluptate earum atque soluta delectus odio enim esse magnam natus animi.</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="card">
+						<div class="card-header" role="tab" id="heading2">
+							<h5 class="mb-5">
+								<a href="#collapse2" data-toggle="collapse" data-parent="#acordion" aria-expanded="true" aria-controls="collapse2">Contenido</a>
+							</h5>
+						</div>
+						
+						<div id="collapse2" class="collapse" role="tabpanel" aria-labelledby="heading2">
+							<div class="card-block">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non impedit eveniet, enim maiores. Aut placeat ex, pariatur voluptates, error dolore quaerat omnis delectus dolores, voluptatum perferendis autem, a dignissimos libero eaque enim. Fuga odio dignissimos, enim impedit, aliquid eveniet delectus nemo animi est temporibus incidunt adipisci provident nostrum autem velit voluptate beatae illo quo laudantium amet expedita aliquam ex voluptas! Doloribus cum similique quas eaque, delectus reiciendis autem provident non ipsa possimus amet eum, vitae aliquid. Nam vel ex, quos id et nobis, eius velit, earum ipsum sequi ad itaque suscipit quae eveniet quidem est enim facere fuga molestias fugiat aliquam rerum ratione veritatis. Eos sed tempore labore quis alias cupiditate quod. In commodi ipsam voluptates qui voluptatibus molestiae quia veritatis alias, voluptatem aliquam illo, corrupti exercitationem! Labore placeat deserunt illo iure, et maiores consequuntur nulla sint perferendis ipsum similique dicta! Ducimus dolores itaque quaerat odit laudantium? Ipsum quod expedita ex harum quam sequi recusandae excepturi earum, repellat odit blanditiis corporis eligendi minus, voluptatem ullam dignissimos libero. Deleniti at, nostrum? Nulla vel veritatis culpa reprehenderit dolor blanditiis fugit, dolore corporis est nam ex error aliquam tempora nisi eveniet. Distinctio voluptate earum atque soluta delectus odio enim esse magnam natus animi.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

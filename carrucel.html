@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scalable=1.0, maximun-sclable=1.0, minium-scalable=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<title>Carrucel</title>
+	<style>
+		img
+		{
+			width: 2000px;
+			height: 400px;
+		}
+	</style>
+</head>
+
+<body>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-12 mt-3">
+				<div class="carousel" id="principal-carousel" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#principal-carousel" data-slide-to="0" class="active"></li>
+						<li data-target="#principal-carousel" data-slide-to="1"></li>
+						<li data-target="#principal-carousel" data-slide-to="2"></li>
+					</ol>
+					<div class="carousel-inner">
+						
+						<div class="carousel-item active">
+							<div class="carousel-caption d-block">
+							
+								<h4>Titulo de la Imagen</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, ex?</p>
+							</div>
+							<img src="img/car1.jpg" alt="img">
+						</div>
+						<div class="carousel-item">
+							<img src="img/car2.jpg" alt="img">
+						</div>
+						<div class="carousel-item">
+							<img src="img/car3.jpg" alt="img">
+						</div>
+						
+					</div>
+					
+					<a href="#principal-carousel" class="carousel-control-prev" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Anterior</span>
+					</a>
+					
+					<a href="#principal-carousel" class="carousel-control-next" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Siguiente</span>
+					</a>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

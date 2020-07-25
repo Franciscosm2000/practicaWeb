@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scalable=1.0, maximun-sclable=1.0, minium-scalable=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<title>Navs</title>
+	<style>
+		.fm-nav a
+		{
+			color: white;
+			padding: 15px;
+			text-decoration: none;
+		}
+		
+		.fm-nav .disabled
+		{
+			color: rgba(255,255,255,0.5);
+		}
+		
+		.fm-nav a:hover
+		{
+			background: rgba(255,255,255,.1);
+		}
+	</style>
+</head>
+
+<body>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-12 mt-4">
+				<h3>Menu con ul</h3>
+				<hr>
+				<ul class="nav">
+					<li class="nav-item">
+						<a href="#" class="nav-link active">Inicio</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link disabled">Contacto</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Nosotros</a>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="col-12 mt-4 ml-0">
+				<h3>Menu con estilos</h3>
+				<hr>
+				<ul class="fm-nav nav bg-dark text-white">
+					<li class="nav-item">
+						<a href="#" class="nav-link active">Inicio</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link disabled">Contacto</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Nosotros</a>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="col mt-4">
+				<h3>menu con nav</h3>
+				<hr>
+				<nav class="nav">
+					<a href="" class="nav-link">Inicio</a>
+					<a href="" class="nav-link">Hola</a>
+					<a href="" class="nav-link">Nosotros</a>
+				</nav>
+			</div>
+			
+			<div class="col-12 mt-4">
+				<h3>menu con nav</h3>
+				<hr>
+				<nav class="nav justify-content-center">
+					<a href="" class="nav-link">Inicio</a>
+					<a href="" class="nav-link">Hola</a>
+					<a href="" class="nav-link">Nosotros</a>
+				</nav>
+			</div>
+			
+			<div class="col mt-4">
+				<h3>menu con nav</h3>
+				<hr>
+				<nav class="nav flex-column">
+					<a href="" class="nav-link">Inicio</a>
+					<a href="" class="nav-link">Hola</a>
+					<a href="" class="nav-link">Nosotros</a>
+				</nav>
+			</div>
+		</div>
+		
+	</div>
+	
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
